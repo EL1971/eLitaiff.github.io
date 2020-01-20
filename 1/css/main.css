@@ -73,8 +73,10 @@ main {
   width: 160px;
   padding: 10px;
   height: 15px;
-  margin-top: 12px;
+  margin-top: 14px;
   background: #000000;
+  color: #8f8c8c;
+  border-color: #570b0b;
 }
 .col-100 {
   width: 100%;
