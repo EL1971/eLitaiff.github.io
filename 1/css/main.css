@@ -17,6 +17,7 @@ main {
   position: relative;
 }
 .logo {
+  margin-left: 34px;
   float: left;
   padding: 1px;
   width: 70%;
@@ -38,6 +39,7 @@ main {
 .menu-urls {
   height: 45px;
   border-bottom: 3px solid #000000;
+  background: #000000;
 }
 .menu ul li {
   display: inline-block;
@@ -72,6 +74,7 @@ main {
   padding: 10px;
   height: 15px;
   margin-top: 12px;
+  background: #000000;
 }
 .col-100 {
   width: 100%;
@@ -87,7 +90,7 @@ button.slick-prev {
   background-image: url("../img/anterior.png");
   position: absolute;
   z-index: 9;
-  top: 65%;
+  top: 50%;
   left: 3%;
 }
 button.slick-next {
@@ -99,6 +102,6 @@ button.slick-next {
   background-image: url("../img/posterior.png");
   position: absolute;
   z-index: 9;
-  top: 65%;
+  top: 50%;
   right: 3%;
 }
